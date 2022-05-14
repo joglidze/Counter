@@ -2,9 +2,9 @@ let count1 = document.querySelector(".count1");
 let count2 = document.querySelector(".count2");
 let count3 = document.querySelector(".count3");
 let btn = document.querySelector("button");
-let countF = 8;
-let countS = 8;
-let countT = 8;
+let countF = 0;
+let countS = 0;
+let countT = 0;
 btn.addEventListener("click", function () {
   if (countF < 9) {
     countF++;
